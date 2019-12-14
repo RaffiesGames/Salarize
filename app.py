@@ -1,3 +1,5 @@
+import os
+from run import app as application
 from flask import Flask,render_template,url_for,request
 from flask_material import Material
 
